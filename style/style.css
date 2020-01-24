@@ -27,7 +27,7 @@
 @media screen and (max-width: 1600px) {
     .grid-one {
         padding: 15px 15px;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(584px, 1fr));
         grid-template-rows: repeat(3, 360px);
         row-gap: 10px;
         column-gap: 10px;
@@ -46,10 +46,6 @@
 }
 
 @media screen and (max-width: 1235px) {
-    .grid-one {
-        grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-
-    }
 
     .grid-one-img:first-child {
         grid-column: 1 / 1;
